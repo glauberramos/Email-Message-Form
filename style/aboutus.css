@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+label {
+	float: left;
+	width: 70px;
+	text-align: right;
+	color: black;
+	margin: 6px 0;
+	margin-left: 30px;
+}
+
+input {
+	height: 20px;
+	width: 300px;
+}
+
+p {
+	font-size:15px;
+	padding: 0 0 10px 10px;
+}
+
+#message {
+	height: 150px;
+	width: 300px;
+}
+
+#send-button {
+	float: left;
+	width: 65px;
+	margin-top:20px;
+	height: 30px;
+	margin: 6px 0 6px 30px;
+	-moz-border-radius: 3px;
+}
+
+.about-us-header {
+	height: 140px;
+	width: 430px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 10px;
+	position: obsolute;
+	-moz-border-radius: 3px;
+}
+
+.input-field {
+	float: left;
+	margin: 6px 0;
+	margin-left: 10px;
+	-moz-border-radius: 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+form.about-us-form label.error {
+	color: red;
+	font-style: italic;
+	float: none;
+	display: block;
+	width: auto;
+	text-align: left;
+	margin: 0;
+}
+
+form.about-us-form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background:#ebf4fb;
+	-moz-border-radius: 3px;
+	-moz-box-shadow: 4px 4px 8px #CCC;
+	-webkit-box-shadow: 4px 4px 8px #CCC;
+	box-shadow: 4px 4px 8px #CCC;
+}

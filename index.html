@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title> Contato </title>
+		
+		<meta name="contato" content="Contato" />
+		
+		<link href="style/aboutus.css" rel="stylesheet" type="text/css" />
+		
+		<script src="scripts/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+		<script src="scripts/validation/jquery.validate.min.js" type="text/javascript"></script>
+		
+		<script src="scripts/aboutus.js" type="text/javascript"></script>
+	</head>
+	<body>
+			<form id="about-us-form" class="about-us-form" method="post" action="email.php">
+				<div id="input-field-area">
+					<p> Mande-nos a sua mensagem! </p>
+					<label for="name"> Nome </label>
+					<div class="input-field">
+						<input id="name" type="text" name="name" class="required" minlength="2"> </input>
+					</div>
+					<br class="clear" />
+					<label for="email"> Email </label>
+					<div class="input-field">
+						<input id="email" type="text" name="email" class="required email"/>
+					</div>
+					<br class="clear" />
+					<label for="message"> Mensagem </label>
+					<div class="input-field">
+						<textarea id="message" type="text" name="message" class="message required" minlength="10"></textarea>
+					</div>
+					<br class="clear" />
+				</div>
+				<div id="submit-field-area">
+					<input id="send-button" type="submit" name="Submit" value="Enviar" />
+					<br class="clear" />
+				</div>
+			</form> 
+	</body>
+</html>
