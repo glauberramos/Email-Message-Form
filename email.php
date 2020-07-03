@@ -1,6 +1,6 @@
 <?php 
-$ToEmail = 'glauberamos@gmail.com'; 
-$EmailSubject = 'Fotografia Feita Teste'; 
+$ToEmail = 'test@gmail.com'; 
+$EmailSubject = 'Teste'; 
 $mailheader = "From: ".$_POST["email"]."\r\n"; 
 $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
 $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
